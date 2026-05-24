@@ -4,6 +4,8 @@ Interfaz moderna desarrollada con HTML, CSS y JavaScript que permite alternar en
 
 El proyecto utiliza un diseño minimalista y dinámico donde los paneles se desplazan horizontalmente para mostrar el formulario seleccionado, creando una experiencia visual más moderna e interactiva.
 
+![FORMULARIO1](https://github.com/davidquinterooo/Login-y-Sign-Up-UI-Animado/blob/db0eff6573ba773517c2373e5120edb14bf7bc51/Captura%20de%20pantalla%202026-05-24%20165144.png)
+
 ## Características
 
 - Interfaz moderna y minimalista.
