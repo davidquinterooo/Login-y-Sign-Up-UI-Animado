@@ -6,6 +6,8 @@ El proyecto utiliza un diseño minimalista y dinámico donde los paneles se desp
 
 ![FORMULARIO1](https://github.com/davidquinterooo/Login-y-Sign-Up-UI-Animado/blob/db0eff6573ba773517c2373e5120edb14bf7bc51/Captura%20de%20pantalla%202026-05-24%20165144.png)
 
+![FORMULARIO2](https://github.com/davidquinterooo/Login-y-Sign-Up-UI-Animado/blob/381e0a89ed7e1f7e01bd2000dc8899c62c398b77/Captura%20de%20pantalla%202026-05-24%20165302.png)
+
 ## Características
 
 - Interfaz moderna y minimalista.
