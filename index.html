@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container" id="container">
+        <div class="form-container login">
+        <form>
+            <h2>Login</h2>
+            <div class="input-group">
+                <input id="username" type="text" placeholder=" " required>
+                <label for="username">User name</label>
+            </div>
+            <div class="input-group">
+                <input id="clave" type="password" placeholder=" " required>
+                <label for="clave">Password</label>
+            </div>
+            <button class="btn-input" type="button" onclick="validar()">Login</button>
+        </form>          
+        </div>
+
+        <div class="cambiar-panel panel-registrar">
+            <h2>Bienvenido de regreso</h2>
+            <p>Si no estas registrado presiona el boton!</p>
+            <button class="esconder" type="button" id="registrar" onclick="mover()">Sign  Up</button>
+        </div>
+            
+        <div class="form-container sign-up">
+        <form>
+            <h2>Create Account</h2>
+            <div class="input-group">
+                <input id="nombre" type="text" placeholder=" " required>  
+                <label for="nombre">First name and last name</label>  
+            </div>
+            <div class="input-group">
+                <input id="username-registrar" type="text" placeholder=" " required>
+                <label for="username-registrar">Username</label>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" placeholder=" " required>             
+                <label for="email">Email (ej: name@gmail.com):</label>
+            </div>
+            <div class="input-group">
+                <input type="password" id="clave-registrar" placeholder=" " required>
+                <label for="clave-registrar">Password</label>
+            </div>
+            <button class="btn-input" type="submit">Create user</button>
+        </form>            
+        </div>
+
+        <div class="cambiar-panel panel-login">
+            <h2>Bienvenido por primera vez</h2>
+            <p>Si ya tienes cuenta presiona el boton!</p>
+            <button class="esconder" type="button" id="login" onclick="mover()">Login</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
